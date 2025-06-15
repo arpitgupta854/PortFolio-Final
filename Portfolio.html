@@ -147,13 +147,24 @@
 
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script>
-        var typingEffect =new Typed(".multiText",{
-            strings : ["Backend Developer","Java Developer","SpringBoot Developer","Web Developer","Software Engineer"],
-            loop:true,
-            typeSpeed :10,
-            backSpeed :10,
-            backDelay :300
-        })
+        // var typingEffect =new Typed(".multiText",{
+        //     strings : ["Backend Developer","Java Developer","SpringBoot Developer","Web Developer","Software Engineer"],
+        //     loop:true,
+        //     typeSpeed :10,
+        //     backSpeed :10,
+        //     backDelay :300
+        // })
+
+        window.onload = function () {
+  new Typed(".multiText", {
+    strings: ["Backend Developer", "Java Developer", "SpringBoot Developer", "Web Developer", "Software Engineer"],
+    loop: true,
+    typeSpeed: 10,
+    backSpeed: 10,
+    backDelay: 300
+  });
+};
+
     </script>
 </body>
 </html>
